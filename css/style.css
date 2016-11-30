@@ -1,0 +1,124 @@
+body {
+    color: #5a5a5a;
+    padding-bottom: 3rem;
+
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+
+    margin:0;
+
+    display: block;
+}
+
+/* Header */
+nav {
+    display: block;
+}
+
+a {
+    color: rgba(0,0,0,.5) !important;
+    text-decoration: none;
+}
+
+.navbar {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0px !important;
+}
+
+.bg-faded {
+    background-color: #f7f7f9 !important;
+}
+
+.nav {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul {
+    margin-top: 0;
+    display: block;
+}
+
+.navbar-nav .nav-item {
+    float: left; 
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/* Section #1 - Opening banner */
+.opening-banner {
+    background: url(../images/nyc.jpg) center center no-repeat fixed;
+    height: 40em;
+    background-size: cover !important;
+    position: relative;
+    text-align: center;
+}
+
+/* Section 2 - Main content */
+.special-divider {
+    margin: 5rem 0; 
+}
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+h1 {
+    border-bottom: 1.5px solid #eee;
+}
+
+.special-heading {
+    display: block;
+
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+.text-muted {
+    color: #818a91 !important;   
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.normal-text {
+    font-size: 1.5rem;
+    font-weight: 350;
+}
+
+.special-img {
+    display: block;
+    width: 350px;
+    height: 425px;
+}
+
+.special-img2 {
+    display: block;
+    width: 450px;
+    height: 300px;
+}
+
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+.center-text {
+    text-align:center;
+}
+
+span.glyphicon {
+    font-size: 5em;
+}
