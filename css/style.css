@@ -1,6 +1,5 @@
 body {
     color: #5a5a5a;
-    padding-bottom: 3rem;
 
     font-size: 1rem;
     line-height: 1.5;
@@ -27,8 +26,20 @@ a {
     margin-bottom: 0px !important;
 }
 
-.bg-faded {
-    background-color: #f7f7f9 !important;
+.bg-dark {
+    background-color: #1B1C1D !important;
+}
+
+.navbar-brand {
+    color: #071A8E !important;
+}
+
+.nav-link {
+    color: #fffff4 !important;
+}
+
+.nav-link:hover {
+    color: #1B1C1D !important;
 }
 
 .nav {
@@ -107,7 +118,7 @@ p {
 .special-img2 {
     display: block;
     width: 450px;
-    height: 300px;
+    height: 275px;
 }
 
 .mx-auto {
@@ -121,4 +132,41 @@ p {
 
 span.glyphicon {
     font-size: 5em;
+}
+
+
+/* Footer */
+
+footer {
+	clear: both;
+	background: #1B1C1D;
+	padding: 2em 3em;
+	text-align: center;
+}
+
+footer > p {
+	margin: 0;
+	display: block;
+	color: lightgrey;
+	font-size: 18px !important;
+	text-align: center;
+}
+
+footer > .icons {
+	margin-top: 1em;
+	display: block;
+	clear: both;
+}
+
+footer > .icons i {
+	color: lightgrey;
+	font-size: 20px;
+}
+
+footer > .icons i:hover {
+	opacity: 0.8;
+}
+
+.pipe {
+	display: none;
 }
