@@ -74,9 +74,12 @@ li {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/nyc.jpg);
     background-position: center center no-repeat fixed;
     height: 40em;
-    background-size: cover !important;
     position: relative;
     text-align: center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
 }
 
 .opening-banner > div {

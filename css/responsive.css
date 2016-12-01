@@ -1,2 +1,13 @@
+@media screen and (max-width: 800px) {
+	#about, #achievements, #education, #experience {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
 
-
+@media screen and (max-width: 451px) {
+	.special-img2 {
+		height: 100%;
+		width: 100%;
+	}
+}
