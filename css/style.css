@@ -30,15 +30,17 @@ a {
     background-color: #1B1C1D !important;
 }
 
-.navbar-brand {
-    color: #071A8E !important;
+.icon-bar {
+    background-color: white;
 }
 
 .nav-link {
+    background-color: #1B1C1D !important;
     color: #fffff4 !important;
 }
 
 .nav-link:hover {
+    background-color: #eee !important;
     color: #1B1C1D !important;
 }
 
