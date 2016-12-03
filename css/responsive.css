@@ -1,7 +1,16 @@
 @media screen and (max-width: 800px) {
-	#about, #achievements, #education, #experience {
+	#about, #achievements, #education {
 		padding-left: 15px;
 		padding-right: 15px;
+	}
+
+	#experience, #contact {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.resp-nv {
+		display:none;
 	}
 }
 

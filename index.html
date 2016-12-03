@@ -6,10 +6,11 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css"></link>
         <link rel="stylesheet" type="text/css" href="css/animate.css"></link>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/icon.min.css"></link>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-inverse navbar-static-top bg-dark" role="navigation">
+            <nav class="navbar navbar-inverse navbar-fixed-top bg-dark" role="navigation">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger">
@@ -34,7 +35,10 @@
                                 <a class="nav-link" href="#education">Education</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="#experience">Job Experience</a>
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -47,12 +51,10 @@
                 <h1 class="opening-header">Personal Website</h1> 
             </div>
         </section>
-        <br/>
-        <br/>
-        <br/>
+
         <section>
-            <div class="container" id="about">
-                <div class="row">
+            <div class="container">
+                <div class="row" id="about">
                     <div class="col-md-7 animated slideInLeft">
                         <h1> About Myself </h1>
                         <br/>
@@ -97,24 +99,23 @@
                         <br/>
                         <br/>
                         <div class="row">
-                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted"> School: </span></h3> </div>
+                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted resp-nv"> School: </span></h3> </div>
                             <div class="col-sm-6"> <h3 class="special-heading">Western University</h3> </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted"> Program: </span></h3> </div>
+                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted resp-nv"> Program: </span></h3> </div>
                             <div class="col-sm-6"> <h3 class="special-heading">Software Engineering</h3> </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted"> Year: </span></h3> </div>
+                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted resp-nv"> Year: </span></h3> </div>
                             <div class="col-sm-6"> <h3 class="special-heading">Fourth Year </h3> </div>
                         </div>
                         <div class="row">
-                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted"> Expected Graduation: </span></h3> </div>
+                            <div class="col-sm-6"> <h3 class="special-heading"><span class="text-muted resp-nv"> Expected Graduation: </span></h3> </div>
                             <div class="col-sm-6"> <h3 class="special-heading">May 2017</h3> </div>
                         </div>
                     </div>
                 </div>
-                <hr class="special-divider">
                 <div class="row" id="experience">
                     <h1> Work Experience </h1>
                     <br>
@@ -124,7 +125,28 @@
                     <ul>
                         <li>Designed and maintained a system of servers dedicated to running automated regression tests against IBM Business Process Manager, increasing our testing passing rate from 60% to 95%.</li>
                         <li>Developed new automated test cases to efficiently test new features being developed by the team, and restructured the existing framework to include data structures, efficient algorithms, and accurate coding guidelines.</li>
+                        <li>Advanced from a software testing role to a junior developer role, where I was responsible for developing and delivering new product features related to user tooling as part of the Scrum workflow of user stories.</li>
+                        <li>Actively involved in eliminating memory leaks from production code, increasing product speed and sustainability to run for at least 24 straight hours while decreasing total leak size from 4GB to approximately 10MB.</li>
                     </ul>
+                </div>
+                <div class="row" id="contact">
+                    <h1> Contact </h1> 
+                    <br>
+                    <br>
+                    <div class="col-lg-3 center-text">
+                        <i class="massive mail icon" id="email-icon"></i>
+                        <h2> agencare@uwo.ca </h2>
+                    </div>
+                    <div class="col-lg-3 center-text">
+                        <a href="https://ca.linkedin.com/in/adamgencarelli"><i class="massive linkedin icon" id="in-icon"></i></a>
+                    </div>
+                    <div class="col-lg-3 center-text">
+                        <a href="https://www.facebook.com/adam.gencarelli"><i class="massive facebook icon" id="fb-icon"></i></a>
+                    </div>
+                    <div class="col-lg-3 center-text">
+                        <i class="massive phone icon" id="phone-icon"></i>
+                        <h2> 519-700-0000 </h2>
+                    </div>
                 </div>
             </div>
             <br>

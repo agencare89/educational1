@@ -96,7 +96,7 @@ li {
 
 /* Section 2 - Main content */
 .special-divider {
-    margin: 5rem 0; 
+    margin-top: 5rem;
 }
 hr {
     border: 0;
@@ -193,4 +193,33 @@ footer > .icons i:hover {
 
 .pipe {
 	display: none;
+}
+
+/* Icon css */
+#in-icon {
+    color: cornflowerblue
+}
+
+#fb-icon {
+    color: darkblue
+}
+
+#phone-icon {
+    color: green;
+}
+
+#mail-icon {
+    color: lightgrey;
+}
+
+a > #in-icon:hover, a > #fb-icon:hover {
+    text-decoration: none !important;
+}
+
+#about, #education, #experience, #contact {
+	padding-top: 40px;
+}
+
+#achievements {
+    padding-top: 50px;
 }
